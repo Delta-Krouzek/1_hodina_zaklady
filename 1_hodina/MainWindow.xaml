@@ -9,7 +9,8 @@
     <Grid Background="#FF72FFB2">
         <Button x:Name="btnzmenbarvu" Content="Změnit barvu" HorizontalAlignment="Left" Margin="301,34,0,0" VerticalAlignment="Top" Width="148" Height="68" Background="#FF84F4FF" Click="button_Click"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="201" Margin="76,120,0,0" VerticalAlignment="Top" Width="535" Source="obrazky/liska.jpg"/>
-        <Label x:Name="label" Content="Liška obecná" HorizontalAlignment="Left" Margin="76,346,0,0" VerticalAlignment="Top" Height="43" Width="273"/>
+        <Label x:Name="label" Content="Liška obecná" HorizontalAlignment="Left" Margin="76,321,0,0" VerticalAlignment="Top" Height="93" Width="340" FontSize="48"/>
+        <Button x:Name="btnpozdrav" Content="Ahoj!" HorizontalAlignment="Left" Margin="545,257,0,0" VerticalAlignment="Top" Width="193" Height="56" Background="#FFC5FF00" Click="btnpozdrav_Click"/>
 
     </Grid>
 </Window>

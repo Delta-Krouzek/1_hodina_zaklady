@@ -30,5 +30,17 @@ namespace _1_hodina
             btnzmenbarvu.Background = Brushes.Red;
             btnzmenbarvu.Content = "Už jsem změnil barvu";
         }
+
+        private void btnpozdrav_Click(object sender, RoutedEventArgs e)
+        {
+            if (btnpozdrav.Content == "Ahoj!")
+            {
+                btnpozdrav.Content = "Čau";
+            }
+            else
+            {
+                btnpozdrav.Content = "Ahoj!";
+            }
+        }
     }
 }
